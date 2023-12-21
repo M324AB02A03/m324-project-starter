@@ -38,7 +38,7 @@ spec:
             periodSeconds: 5
           ports:
             - name: http
-              containerPort: 3000
+              containerPort: ${CONTAINER_PORT}
           resources:
             requests:
               cpu: 25m

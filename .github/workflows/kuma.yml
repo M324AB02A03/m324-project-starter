@@ -38,3 +38,4 @@ jobs:
           APP_NAME: gruppe3-kuma
           BASE_URL: kuma.m324.hackerman.ch
           IMAGE_TAG: louislam/uptime-kuma:1
+          CONTAINER_PORT: 3001

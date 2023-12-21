@@ -64,3 +64,4 @@ jobs:
           APP_NAME: gruppe3-lb1
           BASE_URL: gruppe3-lb1.m324.hackerman.ch
           IMAGE_TAG: ${{ secrets.DOCKERHUB_USER }}/gruppe3-lb1:${{ steps.date.outputs.time }}
+          CONTAINER_PORT: 3000
