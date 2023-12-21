@@ -19,10 +19,10 @@ spec:
       containers:
         - name: ${APP_NAME} # Change this to your app name
           image: ${IMAGE_TAG} # Change this to your image tag
-          command:
-            - /bin/sh
-            - "-c"
-            - yarn start
+          # command:
+          #   - /bin/sh
+          #   - "-c"
+          #   - yarn start
           startupProbe:
             httpGet:
               path: /
