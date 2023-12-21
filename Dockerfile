@@ -17,4 +17,4 @@ RUN yarn test
 RUN yarn build
 
 # Start the server when the container starts
-CMD yarn start
+CMD yarn prod
