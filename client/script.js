@@ -25,6 +25,7 @@
         break;
       case 'typing':
         typingUsers = message.users;
+        document.getElementById('typing').innerHTML = typingUsers[0].name + ' is typing...';
         break;
       default:
         break;
