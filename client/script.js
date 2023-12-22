@@ -21,9 +21,11 @@
         break;
       case 'activeUsers':
         activeUsers = message.users;
+        document.getElementById('activeUsers').innerHTML = activeUsers.map((v) => v.name).join(', ');
         break;
       case 'typing':
         typingUsers = message.users;
+        document.getElementById('typing').innerHTML = typingUsers[0].name + ' is typing...';
         break;
       default:
         break;
